@@ -1,0 +1,15 @@
+[package]
+name = "chisel-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "cdylib"]
+name = "chiselffi"
+
+[dependencies]
+uniffi_macros = { version = "0.21.0", features = ["builtin-bindgen"] }
+uniffi = { version = "0.21.0", features = ["builtin-bindgen"] }
+
+[build-dependencies]
+uniffi_build = { version = "0.21.0", features = ["builtin-bindgen"] }

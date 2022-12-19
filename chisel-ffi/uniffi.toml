@@ -1,0 +1,12 @@
+[bindings.kotlin]
+package_name = "au.com.example.chisel"
+cdylib_name = "chiselffi"
+
+[bindings.python]
+cdylib_name = "chiselffi"
+
+[bindings.ruby]
+cdylib_name = "chiselffi"
+
+[bindings.swift]
+cdylib_name = "chiselffi"
